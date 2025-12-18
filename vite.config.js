@@ -43,6 +43,7 @@ export default defineConfig({
     port: process.env.PORT || 4173,
     allowedHosts: [
       'dev-ambikaschool.onrender.com',
+      'email-fe.onrender.com'
     ],
   },
   build: {
